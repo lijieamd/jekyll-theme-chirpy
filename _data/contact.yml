@@ -5,15 +5,21 @@
 #  MIT Licensed
 
 -
-  type: github
-  icon: 'fab fa-github-alt'
+  type: qq
+  icon: 'fab fa-qq'
 -
-  type: twitter
-  icon: 'fab fa-twitter'
+  type: weixin
+  icon: 'fab fa-weixin'
+-
+  type: weibo
+  icon: 'fab fa-weibo'
 -
   type: email
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
+-
+  type: github
+  icon: 'fab fa-github-alt'
 -
   type: rss
   icon: 'fas fa-rss'

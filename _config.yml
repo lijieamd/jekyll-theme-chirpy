@@ -8,9 +8,9 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Chirpy                          # the main title
+title: JaySeaweed                          # the main title
 
-tagline: A text-focused Jekyll theme.  # it will display as the sub-title
+tagline: A useless blog.  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -18,25 +18,29 @@ description: >-                        # used by seo meta and the atom feed
   and focuses on text presentation.
 
 # Replace with the website url, e.g. 'https://username.github.io'
-url: 'protocol://domain'
+url: 'http://blog.moovatech.com'
 
-author: your_full_name                  # change to your full name
+author: lijie                  # change to your full name
 
-avatar: /assets/img/sample/avatar.jpg   # support internet resources
+avatar: /assets/img/sample/avatar.png   # support internet resources
 
 github:
-  username: github_username             # change to your github username
+  username: lijieamd             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: lijieamd            # change to your twitter username
+
+weibo:
+  username: JaySeaweed            # change to your weibo username
 
 social:
-  name: your_full_name                  # it will shows as the copyright owner in Footer
-  email: example@doamin.com             # change to your email address
+  name: lijie                  # it will shows as the copyright owner in Footer
+  email: lijieamd@msn.cn             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://twitter.com/lijieamd      # change to your twitter homepage
+    - https://github.com/lijieamd       # change to your github homepage
+    - https://weibo.com/JaySeaweed       # change to your weibo homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username

@@ -8,4 +8,5 @@ title: About
 # MIT License
 ---
 
-> **Note**: Add Markdown syntax content to file `tabs/about.md` and it will show up on this page.
+This is a web library for quick search some notes.  
+You can contact me from bottom-left of this web.  

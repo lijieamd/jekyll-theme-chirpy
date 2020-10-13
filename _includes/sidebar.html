@@ -68,6 +68,12 @@
     {% capture url %}
       {%- if entry.type == 'github' -%}
         https://github.com/{{ site.github.username }}
+      {%- elsif entry.type == 'weibo' -%}
+        https://weibo.com/{{ site.weibo.username }}
+      {%- elsif entry.type == 'qq' -%}
+        {{ site.baseurl }}/assets/img/sample/qq_qrcode.jpg
+      {%- elsif entry.type == 'weixin' -%}
+        {{ site.baseurl }}/assets/img/sample/weixin_qrcode.png
       {%- elsif entry.type == 'twitter' -%}
         https://twitter.com/{{ site.twitter.username }}
       {%- elsif entry.type == 'email' -%}

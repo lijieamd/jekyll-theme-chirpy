@@ -10,6 +10,10 @@ label: "Share"
 
 platforms:
   -
+    type: Weibo
+    icon: "fab fa-weibo"
+    link: "http://service.weibo.com/share/share.php?title=TITLE&url=URL"
+  -
     type: Twitter
     icon: "fab fa-twitter"
     link: "https://twitter.com/intent/tweet?text=TITLE&url=URL"
