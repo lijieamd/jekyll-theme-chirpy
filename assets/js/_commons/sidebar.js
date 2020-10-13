@@ -32,3 +32,11 @@ $(function() {
   $("#mask").click(sidebarUtil.toggle);
 
 });
+
+
+$(document).ready(function() {
+  $('.popup-image').magnificPopup({
+  	type:'image',
+  	closeOnContentClick: true
+  	});
+});
