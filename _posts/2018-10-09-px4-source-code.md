@@ -4,7 +4,7 @@ date: 2018-10-09 19:31:00 +0800
 categories: [PX4]
 tags: [px4, code]
 seo:
-  date_modified: 2020-03-25 15:17:00 +0800
+  date_modified: 2020-10-15 16:27:00 +0800
 ---
 
 # Porting work
@@ -112,8 +112,18 @@ PARAM_DEFINE_FLOAT(MC_PITCH_P, 6.5f);
 PARAM_DEFINE_INT32(EKF2_GPS_CHECK, 21);
 ```
 
+# Mixer
+## mixer arch(v1.9.2)
+### 1.mixer table build and references
+1. ***Px_generate_mixers.py*** use frame motor geometries file(e.g. ***quad_x.toml***) to make ***mixer_multirotor.generated.h***
+2. ***Mixer_multirotor.cpp***(MultirotorMixer) include ***mixer_multirotor.generated.h***
+3. 
+
+
+## mixer arch(v1.11)
+
 # Some confusion
 * orb invoke always fail in nsh created thread (like module's print_status())
 
-# orb_copy
+# orb_copy(not work in v1.11)
 * you can pass nullptr to orb_copy to clear subscriber's internal update flag only
